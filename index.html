@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #141414;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .profile-card {
+        color: white;
+        background-color: #1f1f1f;
+        width: 304px;
+        height: 531px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+        gap: 24px;
+      }
+      .profile-photo {
+        width: 88px;
+        height: 88px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+      .profile-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .name-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        gap: 4px;
+      }
+      .name {
+        font-size: 24px;
+      }
+      .address {
+        color: #c4f82a;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .title-content {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .option {
+        background-color: #333333;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        border-radius: 8px;
+      }
+      .option-group {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        gap: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="profile-photo">
+        <img src="assets/images/avatar-jessica.jpeg" />
+      </div>
+      <div class="name-card">
+        <div class="name">Jessica Randall</div>
+
+        <div class="address">London, United Kingdom</div>
+      </div>
+      <div class="title-content">"Front-end developer and avid reader."</div>
+      <div class="option-group">
+        <div class="option">GitHub</div>
+        <div class="option">Frontend Mentor</div>
+        <div class="option">LinkedIn</div>
+        <div class="option">Twitter</div>
+        <div class="option">Instagram</div>
+      </div>
+    </div>
+  </body>
+</html>
